@@ -1,55 +1,57 @@
-# 🍔 Food Delivery MERN
+# 🍔 Food Delivery MERN Stack Application
 
-<p align="center">
-  <img src="screenshots/banner.png" alt="Food Delivery MERN Banner" width="100%">
-</p>
-
-<p align="center">
-
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react)
-![NodeJS](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
-![ExpressJS](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express)
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb)
-![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens)
-![Stripe](https://img.shields.io/badge/Stripe-635BFF?style=for-the-badge&logo=stripe)
-![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
-
-</p>
+A complete Full Stack Food Delivery Web Application built using the MERN Stack (MongoDB, Express.js, React.js, Node.js). Users can browse food items, add them to the cart, place orders, and make secure online payments using Stripe.
 
 ---
 
-# 📌 Project Description
+## 🚀 Features
 
-Food Delivery MERN is a full-stack web application built using the **MERN Stack (MongoDB, Express.js, React.js, and Node.js)**. The application allows users to browse delicious food items, add them to a shopping cart, place orders securely using **Stripe Payment Gateway**, and track their orders. It also includes a powerful **Admin Dashboard** where administrators can manage food items and customer orders efficiently.
+### 👤 Authentication
 
----
+- User Registration
+- User Login
+- JWT Authentication
+- Protected Routes
 
-# ✨ Features
+### 🍽 Food Menu
 
-## 👤 User Features
+- Browse all food items
+- Filter by category
+- Food details with image
+- Responsive UI
 
-- User Registration & Login
-- Secure JWT Authentication
-- Browse Food Menu
-- Search Food Items
-- Add Items to Cart
-- Update Cart Quantity
-- Stripe Payment Integration
+### 🛒 Shopping Cart
+
+- Add items to cart
+- Remove items
+- Update quantity
+- Automatic cart total calculation
+
+### 🚚 Checkout
+
+- Delivery Information Form
+- Order Summary
+- Cart Total
+- Delivery Charges
+
+### 💳 Online Payment
+
+- Stripe Payment Gateway
+- Secure Checkout
+- Payment Success Handling
+
+### 📦 Orders
+
 - Place Orders
 - View Order History
-- Fully Responsive UI
+- Track Orders
 
----
+### 🛠 Admin Features
 
-## 👨‍💼 Admin Features
-
-- Secure Admin Login
-- Add New Food Items
+- Add New Food
+- Delete Food
 - Upload Food Images
-- Delete Food Items
-- Manage Customer Orders
-- Update Order Status
-- Easy Dashboard Management
+- Manage Food Items
 
 ---
 
@@ -58,8 +60,8 @@ Food Delivery MERN is a full-stack web application built using the **MERN Stack 
 ### Frontend
 
 - React.js
-- Vite
-- React Router DOM
+- React Router
+- Context API
 - Axios
 - CSS
 
@@ -71,211 +73,140 @@ Food Delivery MERN is a full-stack web application built using the **MERN Stack 
 - Mongoose
 - JWT Authentication
 - Multer
-
-### Database
-
-- MongoDB Atlas
-
-### Payment Gateway
-
-- Stripe
-
-### Tools
-
-- Git
-- GitHub
-- VS Code
-- Postman
+- Stripe API
 
 ---
 
-# 📂 Folder Structure
+# 📂 Project Structure
 
-```text
-Food-Delivery-MERN
+```
+Food-Delivery/
 │
-├── admin
-│   ├── src
-│   ├── public
-│   └── package.json
-│
-├── backend
-│   ├── config
-│   ├── controllers
-│   ├── middleware
-│   ├── models
-│   ├── routes
-│   ├── uploads
-│   ├── server.js
-│   └── package.json
-│
-├── frontend
-│   ├── src
-│   ├── public
-│   └── package.json
-│
-├── screenshots
-│
-├── .gitignore
-├── LICENSE
+├── frontend/
+├── backend/
+├── admin/
 └── README.md
 ```
 
 ---
 
-# ⚙️ Installation
-
-### 1️⃣ Clone Repository
-
-```bash
-git clone https://github.com/Hassoo-000/Food-Delivery-MERN.git
-```
-
-### 2️⃣ Open Project
-
-```bash
-cd Food-Delivery-MERN
-```
-
-### 3️⃣ Install Frontend
-
-```bash
-cd frontend
-npm install
-npm run dev
-```
-
-### 4️⃣ Install Backend
-
-```bash
-cd backend
-npm install
-npm start
-```
-
-### 5️⃣ Install Admin Panel
-
-```bash
-cd admin
-npm install
-npm run dev
-```
-
----
-
-# 🔐 Environment Variables
-
-Create a `.env` file inside the **backend** folder.
-
-```env
-MONGO_URI=YOUR_MONGODB_URI
-
-JWT_SECRET=YOUR_SECRET_KEY
-
-STRIPE_SECRET_KEY=YOUR_STRIPE_SECRET_KEY
-
-PORT=4000
-```
-
-> ⚠️ Never upload your `.env` file to GitHub.
-
----
-
-# 📸 Application Screenshots
+# 📸 Screenshots
 
 ## 🏠 Home Page
 
-<img src="screenshots/home.png" width="100%">
+![Home](screenshots/home.jpg)
 
 ---
 
-## 🍕 Food Menu
+## 🍽 Food Menu
 
-<img src="screenshots/menu.png" width="100%">
+![Menu](screenshots/menu.jpg)
 
 ---
 
 ## 🛒 Shopping Cart
 
-<img src="screenshots/cart.png" width="100%">
+![Cart](screenshots/cart.jpg)
 
 ---
 
-## 🔑 Login
+## 🚚 Checkout
 
-<img src="screenshots/login.png" width="100%">
+![Checkout](screenshots/checkout.jpg)
 
 ---
 
-## 💳 Place Order
+## 💳 Stripe Payment
 
-<img src="screenshots/place-order.png" width="100%">
+![Payment](screenshots/payment.jpg)
 
 ---
 
 ## 📦 My Orders
 
-<img src="screenshots/my-orders.png" width="100%">
+![Orders](screenshots/orders.jpg)
 
 ---
 
-## 👨‍💼 Admin Dashboard
+## 🛠 Admin Dashboard
 
-<img src="screenshots/admin-dashboard.png" width="100%">
-
----
-
-## ➕ Add Food
-
-<img src="screenshots/add-food.png" width="100%">
+![Admin](screenshots/admin-dashboard.jpg)
 
 ---
 
-## 📋 Orders Management
+# ⚙ Installation
 
-<img src="screenshots/orders.png" width="100%">
+Clone the repository
+
+```bash
+git clone https://github.com/YourUsername/Food-Delivery.git
+```
+
+Move into the project
+
+```bash
+cd Food-Delivery
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Run Backend
+
+```bash
+npm run server
+```
+
+Run Frontend
+
+```bash
+npm run dev
+```
+
+Run Admin
+
+```bash
+npm run dev
+```
 
 ---
 
-# 🚀 Future Improvements
+# Environment Variables
 
-- Email Notifications
-- Product Reviews
+Create a `.env` file inside the backend.
+
+```env
+PORT=4000
+
+MONGO_URI=Your MongoDB URI
+
+JWT_SECRET=Your Secret
+
+STRIPE_SECRET_KEY=Your Stripe Secret
+```
+
+---
+
+# Future Improvements
+
+- Order Status Updates
+- Admin Order Management
+- Search Food
 - Wishlist
-- Coupon System
-- Multiple Payment Methods
-- Real-Time Order Tracking
-- User Profile Management
-- Dark Mode
-- Mobile Application
+- Reviews & Ratings
+- Email Notifications
 
 ---
 
 # 👨‍💻 Author
 
-## Muhammad Hassan
+**Muhammad Hassan**
 
-🎓 Computer Science Graduate
+Computer Science Graduate
 
-💻 MERN Stack Developer
+Full Stack MERN Developer
 
-### Connect with Me
-
-- **LinkedIn:** https://www.linkedin.com/in/muhammad-hassan-249408293
-- **GitHub:** https://github.com/Hassoo-000
-
----
-
-# 📄 License
-
-This project is licensed under the **MIT License**.
-
----
-
-<div align="center">
-
-## ⭐ If you found this project helpful, please consider giving it a Star!
-
-**Thank you for visiting this repository.**
-
-</div>
+GitHub: https://github.com/Hassoo-000
