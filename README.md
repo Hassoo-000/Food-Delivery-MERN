@@ -94,43 +94,43 @@ Food-Delivery/
 
 ## 🏠 Home Page
 
-![Home](screenshots/home.jpg)
+![Home](screenshots/home.JPG)
 
 ---
 
 ## 🍽 Food Menu
 
-![Menu](screenshots/menu.jpg)
+![Menu](screenshots/menu.JPG)
 
 ---
 
 ## 🛒 Shopping Cart
 
-![Cart](screenshots/cart.jpg)
+![Cart](screenshots/cart.JPG)
 
 ---
 
 ## 🚚 Checkout
 
-![Checkout](screenshots/checkout.jpg)
+![Checkout](screenshots/checkout.JPG)
 
 ---
 
 ## 💳 Stripe Payment
 
-![Payment](screenshots/payment.jpg)
+![Payment](screenshots/payment.JPG)
 
 ---
 
 ## 📦 My Orders
 
-![Orders](screenshots/orders.jpg)
+![Orders](screenshots/orders.JPG)
 
 ---
 
 ## 🛠 Admin Dashboard
 
-![Admin](screenshots/admin-dashboard.jpg)
+![Admin](screenshots/admin-dashboard.JPG)
 
 ---
 
