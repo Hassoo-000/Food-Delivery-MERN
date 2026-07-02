@@ -209,4 +209,6 @@ Computer Science Graduate
 
 Full Stack MERN Developer
 
+LinkedIn: (www.linkedin.com/in/muhammad-hassan-249408293)
+
 GitHub: https://github.com/Hassoo-000
